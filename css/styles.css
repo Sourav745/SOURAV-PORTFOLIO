@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+html{
+    font-size: 62.5%;
+}
+
+p{
+   color: #000;
+   font-size: 2rem;
+   font-family: monospace;
+    
+}
+p:hover{
+   color: rgb(255, 141, 240);
+}
+h1{
+    margin: 0 auto 0 auto;
+    text-align:center ;
+    font-family: 'Sacramento', cursive;
+   font-size: 10rem;
+
+}
+h2{
+    
+    font-weight: normal;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7rem;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #f16666;
+    font-size: 3rem; 
+}
+
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: #66BFBF;
+    cursor: pointer;
+
+}
+
+.Top-container{
+    text-align:center ;
+    padding-top: 10rem;
+    background-color:rgb(215, 241, 255) ;
+    mix-blend-mode: difference;
+   
+
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+    background-color:rgb(255, 255, 255) ;
+}
+.contact-me {
+    width: 50%;
+    margin: 10rem auto;
+    line-height: 2;
+}
+
+.pro{
+    text-align:center ;
+    text-decoration:underline;
+    font-size: 3rem;
+}
+
+.profile-p {
+    margin-top: 2rem;
+}
+
+
+.bottom-container {
+    background-color:rgb(215, 241, 255) ;
+    padding: 2.5rem;
+}
+.Bottom-cloud{
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    mix-blend-mode: multiply;
+    left: 20rem; 
+   top: 17rem;
+}
+.top-cloud{
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    right: 22rem;
+    top: 8rem;
+    mix-blend-mode: multiply ;
+}
+.general-images {
+    width: 25%;
+    height: 25%;
+}
+.image-sourav {
+    width: 30rem;
+    height: 30rem;
+    border-radius:50%;
+    margin: 5rem auto;
+}
+.skill-images-1 {
+    float: left;
+    margin-right: 3rem;
+}
+.skill-images-2 {
+    float: right;
+    margin-left: 3rem;
+}
+.mountain{
+   bottom:  0rem;
+   mix-blend-mode: multiply;
+   width: 70rem;
+   height: 25rem;
+  
+}
+.footer-link {
+    margin: 0 2rem;
+    font-size: 2rem;
+}
+
+.footer-author {
+    margin: 4rem auto 2rem auto;
+}
+.margin-button{
+    margin: 0rem 0rem 5rem 0rem;
+    }
+    .btn{
+        margin: 5rem 0rem;
+        border-radius: 15em;
+        background-color: #000000;
+        padding: 1rem 2rem;
+        color: white;
+       font-size: 2rem;
+    }   
+    @media screen  and (max-width: 998px){
+    
+    html{
+        font-size: 55%;
+
+    }
+
+    }
+    @media screen  and (max-width: 768px){
+    
+        html{
+            font-size: 40%;
+    
+        }
+    
+        }
+
+        
+    
